@@ -46,9 +46,6 @@ Generated\ Files/
 # MacOS directories
 .DS_Store
 
-# Migrations folder
-Data/Migrations/
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
