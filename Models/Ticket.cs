@@ -45,18 +45,18 @@ public class Ticket
     public int TicketStatusId { get; set; }
     
     [Display(Name = "Ticket Owner")]
-    public string OwnerUserId { get; set; }
+    public string? OwnerUserId { get; set; }
     
     [Display(Name = "Ticket Developer")]
-    public string DeveloperUserId { get; set; }
+    public string? DeveloperUserId { get; set; }
     
     // Navigation properties
     public virtual Project Project { get; set; }
     public virtual TicketType TicketType { get; set; }
     public virtual TicketPriority TicketPriority { get; set; }
     public virtual TicketStatus TicketStatus { get; set; }
-    public virtual ApplicationUser OwnerUser { get; set; }
-    public virtual ApplicationUser DeveloperUser { get; set; }
+    public virtual ApplicationUser? OwnerUser { get; set; }
+    public virtual ApplicationUser? DeveloperUser { get; set; }
 
     public virtual ICollection<TicketComment> Comments { get; set; } = new HashSet<TicketComment>();
     public virtual ICollection<TicketAttachment> Attachments { get; set; } = new HashSet<TicketAttachment>();

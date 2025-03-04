@@ -22,13 +22,13 @@ namespace BugTracker.Helpers
             using var svcScope = host.Services.CreateScope();
             var svcProvider = svcScope.ServiceProvider;
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-            //Service: An instance of RoleManager
+            // Service: An instance of DbContext
             var dbContextSvc = svcProvider.GetRequiredService<ApplicationDbContext>();
-            //Service: An instance of RoleManager
+            // Service: An instance of RoleManager
             var roleManagerSvc = svcProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            //Service: An instance of the UserManager
+            // Service: An instance of the UserManager
             var userManagerSvc = svcProvider.GetRequiredService<UserManager<ApplicationUser>>();
-            //Migration: This is the programmatic equivalent to Update-Database
+            // Migration: This is the programmatic equivalent to Update-Database
             await dbContextSvc.Database.MigrateAsync();
 
             

@@ -2,88 +2,43 @@
   Bug Tracker
 </h3>
 
-<p align="center">Esta aplicação está atualmente em desenvolvimento durante o Bootcamp da <a href="https://www.coderfoundry.com">Coder Foundry</a>.</p>
+## :trophy: About the Project
 
-<p align="center">
+BugTracker is a system designed for tracking issues and bugs. It is commonly used in large organizations, especially in collaborative or distributed environments. However, it can also be utilized by individuals for personal time management and productivity tracking.
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361" />
+This system includes resource allocation, time tracking, priority management, and workflow supervision. Additionally, it provides a centralized issue log to enhance efficiency and accountability.
 
-</p>
+This project was built using C# and follows the Model-View-Controller (MVC) pattern with .NET 8.0. It adopts a code-first approach, featuring user registration and role-based access control for security.
 
-<p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Link do deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Pré-requisito</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Licença</a>
-</p>
+Throughout the development process, best practices such as Object-Oriented Programming (OOP), SOLID principles, and Dependency Injection were applied to ensure maintainability and scalability.
 
-## :trophy: Sobre o projeto
+:rocket: Technologies
 
-<p>O <strong>BugTracker</strong> é um sistema de rastreamento de problemas. Geralmente é usado ​​em grandes empresas, especialmente em colaborações grandes ou distribuídas, mas também pode ser empregado por indivíduos como parte de um regime de gerenciamento de tempo ou produtividade pessoal.</p> 
+This project was developed using:
 
-<p>Esse sistema abrange alocação de recursos, contabilização de tempo, gerenciamento de prioridades e fluxo de trabalho de supervisão, além de implementar um registro de problemas centralizado.</p>
-
-## :exclamation: Informações importantes
-
-<p>Este projeto foi construído usando a linguagem de programação C#, criando uma aplicação MVC com .NET 6.0, com abordagem "code first", implementando cadastros usuários e segurança de acesso baseada em privilégios de usuário. </p>
-
-<p> Durante a construção do projeto foram aplicados os princípios de POO (programação orientada a objetos), de SOLID e injeção de dependências.</p>
-
-
-## :computer: Demonstração
-
-<p>Imagens da aplicação em funcionamento e link de acesso serão disponibilizados futuramente nesta seção. </p>
-
-
-## :gear: Pré-requisitos
-
-- .NET 6.0
-- Banco de Dados PostgreSQL
-
-## :file_folder: Rodando a Aplicação (web)
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/gustmrg/dotnet-bugtracker.git
-
-# Navegue até a pasta
-$ cd dotnet-bugtracker
-
-# Execute a aplicação
-$ dotnet run
-```
+- .NET 8.0
+- PostgreSQL v17
 
 ## :star: Features
 
-- [ ] Landing page
-- [ ] Login/Registro de usuário
+- [ ] Landing Page
 - [ ] Dashboard
-- [ ] Administração de privilégios de usuários
-- [ ] Administração de tíquetes (tickets)
-- [ ] Administração de projetos
-- [ ] Gerenciamento de Perfil de Usuário
+- [ ] User Login/Registration
+- [ ] Ticket Management
+- [ ] Project Management
+- [ ] User Privilege Management
+- [ ] User Profile Management
 
+## :blue_book: Libraries
 
-## :rocket: Tecnologias
-
-Este projeto foi desenvolvido com as seguintes tecnologias:
-
-- .NET 6.0
-- PostgreSQL v14
-
-## :blue_book: Bibliotecas
-
-Este projeto utilizou:
+This project uses:
 
 - Identity Framework
 - Entity Framework
 - Bootstrap
 
+## :page_with_curl: License
 
-## :page_with_curl: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
 
 ---

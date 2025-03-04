@@ -34,12 +34,12 @@ public class Project
     public IFormFile ImageFormFile { get; set; }
     
     [Display(Name = "File Name")]
-    public string ImageFileName { get; set; }
+    public string? ImageFileName { get; set; }
     
-    public byte[] ImageFileData { get; set; }
+    public byte[]? ImageFileData { get; set; }
     
     [Display(Name = "File Extension")]
-    public string ImageContentType { get; set; }
+    public string? ImageContentType { get; set; }
     
     [Display(Name = "Archived")]
     public bool Archived { get; set; }
