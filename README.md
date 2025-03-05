@@ -1,6 +1,7 @@
-<h3 align="center">
-  Bug Tracker
-</h3>
+<div align="center">
+  <img src="/assets/bugtracker-logo.png" alt="BugTracker App Logo" height="100" >
+  <h3 align="center">Bug Tracker</h3>
+</div>
 
 ## :trophy: About the Project
 
