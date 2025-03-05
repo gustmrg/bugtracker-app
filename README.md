@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="/assets/bugtracker-logo.png" alt="BugTracker App Logo" height="100" >
-  <h1 align="center">Bug Tracker</h3>
+  <img src="/assets/bugtracker-logo.png" alt="BugTracker App Logo" height="100" />
+  <h3 align="center">BugTracker</h3>
 </div>
 
-## :trophy: About the Project
+### :trophy: About the Project
 
 BugTracker is a system designed for tracking issues and bugs. It is commonly used in large organizations, especially in collaborative or distributed environments. However, it can also be utilized by individuals for personal time management and productivity tracking.
 
@@ -13,14 +13,14 @@ This project was built using C# and follows the Model-View-Controller (MVC) patt
 
 Throughout the development process, best practices such as Object-Oriented Programming (OOP), SOLID principles, and Dependency Injection were applied to ensure maintainability and scalability.
 
-## :rocket: Technologies
+### :rocket: Technologies
 
 This project was developed using:
 
 - .NET 8.0
 - PostgreSQL v17
 
-## :star: Features
+### :star: Features
 
 - [ ] Landing Page
 - [ ] Dashboard
@@ -30,7 +30,7 @@ This project was developed using:
 - [ ] User Privilege Management
 - [ ] User Profile Management
 
-## :blue_book: Libraries
+### :blue_book: Libraries
 
 This project uses:
 
@@ -38,7 +38,7 @@ This project uses:
 - Entity Framework
 - Bootstrap
 
-## :page_with_curl: License
+### :page_with_curl: License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
 
