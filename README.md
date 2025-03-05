@@ -12,7 +12,7 @@ This project was built using C# and follows the Model-View-Controller (MVC) patt
 
 Throughout the development process, best practices such as Object-Oriented Programming (OOP), SOLID principles, and Dependency Injection were applied to ensure maintainability and scalability.
 
-:rocket: Technologies
+## :rocket: Technologies
 
 This project was developed using:
 
