@@ -18,6 +18,7 @@ Throughout the development process, best practices such as Object-Oriented Progr
 This project was developed using:
 
 - .NET 8.0
+- React
 - PostgreSQL v17
 
 ### :star: Features
@@ -36,7 +37,8 @@ This project uses:
 
 - Identity Framework
 - Entity Framework
-- Bootstrap
+- Tailwind CSS
+- ShadCN UI
 
 ### :page_with_curl: License
 
