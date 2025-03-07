@@ -1,7 +1,5 @@
-import { RegisterPage } from "./pages/auth/register/page";
-
-import "./App.css";
+import { AppRoutes } from "./routes";
 
 export function App() {
-  return <RegisterPage />;
+  return <AppRoutes />;
 }
