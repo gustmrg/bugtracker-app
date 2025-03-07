@@ -1,13 +1,8 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import { DashboardLayout } from "./pages/layouts/dashboard-layout";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Button>Click me!</Button>
-    </div>
-  );
+  return <DashboardLayout />;
 }
 
 export default App;
