@@ -1,8 +1,7 @@
+import { RegisterPage } from "./pages/auth/register/page";
+
 import "./App.css";
-import { DashboardLayout } from "./pages/layouts/dashboard-layout";
 
-function App() {
-  return <DashboardLayout />;
+export function App() {
+  return <RegisterPage />;
 }
-
-export default App;
