@@ -1,8 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import { ProtectedRoute } from "@/components/protected-route";
 import { NotFound } from "@/pages/NotFound";
 import { Login } from "@/pages/auth/Login";
 import { Register } from "@/pages/auth/Register";
+import { Dashboard } from "@/pages/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,11 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <NotFound />,
+  },
+  {
+    path: "/dashboard",
+    element: <ProtectedRoute />,
+    children: [{ path: "/dashboard", element: <Dashboard /> }],
   },
 ]);
 
